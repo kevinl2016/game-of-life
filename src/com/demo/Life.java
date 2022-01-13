@@ -21,9 +21,10 @@ public class Life
 
     /**
      * The intializeCells static method sets up the initial cells with a
-     * random set of cells.
+     * List input.
      *
      * @param cells a Cells, typically empty
+     * @param input list of live cell
      */
     public static void intializeCells(Cells cells, List<Integer[]> input)
     {
